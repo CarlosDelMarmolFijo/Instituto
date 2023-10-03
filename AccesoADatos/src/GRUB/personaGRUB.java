@@ -8,6 +8,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
+// en este fichero se encuentran los cuatro metodos del CRUD (listar, borrar, actializar, añadir)
 public class personaGRUB {
 
 	// clase ArrayList donde vamos a ir almacenando el contenido de las personas
