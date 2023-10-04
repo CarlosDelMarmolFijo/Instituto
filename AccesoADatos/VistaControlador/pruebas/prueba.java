@@ -9,6 +9,7 @@ public class prueba {
 		controladorAlumno control1 = new controladorAlumno();
 		
 		control1.mostrarAlumnos();
+		control1.añadir();
 		
 	}
 
