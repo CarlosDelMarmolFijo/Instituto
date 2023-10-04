@@ -18,4 +18,8 @@ public class controladorAlumno {
 		vAlumno.verContenido(aCrud.getPersonas(), aCrud.getCabecera());
 	}
 
+	public void añadir() {
+		aCrud.añadirPersona("manolo", 23);
+	}
+
 }
