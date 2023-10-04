@@ -34,6 +34,15 @@ public class personasCRUD {
 			e.getMessage();
 		} 
 	}
+
+	public void añadirPersona(String nombre, int edad) {
+		try (BufferedWriter escribir = new BufferedWriter(new FileWriter(rutaOrigen,true))) {
+			escribir.newLine();
+			escribir.write(nombre + "/" + edad);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 	
 	public String getCabecera() {
 		return cabecera;
