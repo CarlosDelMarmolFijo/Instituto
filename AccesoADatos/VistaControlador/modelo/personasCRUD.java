@@ -26,7 +26,7 @@ public class personasCRUD {
 			
 			while (br.ready()) {
 				linea = br.readLine();
-				String[] contenido = linea.split("/");
+				String[] contenido = linea.split("-");
 				personas.add(new personas(contenido[0],Integer.parseInt(contenido[1])));
 			}
 		} catch (IOException e) {
@@ -38,7 +38,7 @@ public class personasCRUD {
 	public void añadirPersona(String nombre, int edad) {
 		try (BufferedWriter escribir = new BufferedWriter(new FileWriter(rutaOrigen,true))) {
 			escribir.newLine();
-			escribir.write(nombre + "/" + edad);
+			escribir.write(nombre + "-" + edad);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
