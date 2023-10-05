@@ -22,26 +22,26 @@ int main(int argc, char* argv[])
         close(fd1[READ_END]);   /* cerrar extremo no necesario */
 		
         dup2(fd1[WRITE_END], STDOUT_FILENO); 
-		close(fd1[WRITE_END]);
+	close(fd1[WRITE_END]);
 		
         execlp("/bin/ls", "ls", "-l", NULL);
     }
     else                          /* padre */
     { 
-		close(fd1[WRITE_END]);    /* extremo no necesario ya */
+	close(fd1[WRITE_END]);    /* extremo no necesario ya */
 		
-		pipe(fd2);		  /* comunica grep y wc */
+	pipe(fd2);		  /* comunica grep y wc */
         pid = fork();
         
        if(pid == 0)               /* hijo 2 */
        {
-	  		close(fd2[READ_END]);   /* cerrar extremo no necesario */
+	  	close(fd2[READ_END]);   /* cerrar extremo no necesario */
 									
           	dup2(fd1[READ_END], STDIN_FILENO);
-	  		close(fd1[READ_END]);
+	  	close(fd1[READ_END]);
 			
-	  		dup2(fd2[WRITE_END], STDOUT_FILENO);			
-	  		close(fd2[WRITE_END]);
+	  	dup2(fd2[WRITE_END], STDOUT_FILENO);			
+	  	close(fd2[WRITE_END]);
 			
           	execlp("/bin/grep","grep", "u",NULL);
 	   }
@@ -52,7 +52,7 @@ int main(int argc, char* argv[])
 			
      	   pid = fork();
 		
-	   	   if(pid == 0) /* hijo 3*/
+	   if(pid == 0) 	  /* hijo 3*/
            {
 	         dup2(fd2[READ_END], STDIN_FILENO);
 	         close(fd2[READ_END]);
