@@ -58,7 +58,7 @@ int main(int argc, char* argv[])
 	         close(fd2[READ_END]);
 				
 	         execlp("/usr/bin/wc","wc", "-l",NULL);
-	       }
+	   }
          }		        
       }
     
