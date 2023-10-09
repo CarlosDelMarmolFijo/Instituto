@@ -1,4 +1,4 @@
-# Dado un array tal como [15, 62, 28, 32, 44, 6], haz un archivo que realice las siguientes operaciones:
+# Dado un array tal como [15, 62, 28, 32, 44, 6]
 
 # Borrar el valor menor sin usar la función min
 # Calcula el promedio del array sin usan la función promedio
