@@ -21,8 +21,8 @@ int main(void) {
 	}
 	
 	while(1) {
-		sleep(2);
-		printf("proc. PID = %d , var = %d ejecutandose \n", getpid(), var);
+	    sleep(2);
+	    printf("proc. PID = %d , var = %d ejecutandose \n", getpid(), var);
 	}
 	
 	return 0;
