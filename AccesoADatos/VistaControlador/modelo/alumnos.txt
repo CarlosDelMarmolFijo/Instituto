@@ -1,2 +1,0 @@
-Nombre	Edad
-carlos-22
