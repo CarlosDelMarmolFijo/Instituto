@@ -7,7 +7,7 @@ public class LanzaProceso {
 
   public static void main(String[] args) {
 
-	 String si = "ipconfig";
+    String si = "ipconfig";
 	 
     if (si.length() <= 0) {
       System.out.println("Debe indicarse comando a ejecutar.");
