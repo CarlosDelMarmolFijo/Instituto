@@ -1,7 +1,0 @@
-C:\Users\usuario\Desktop\Desarrollo de interfaces\UD 2 Introduccion a C#\2DAM_Ejemplos\bin\Debug\2DAM_Ejemplos.exe.config
-C:\Users\usuario\Desktop\Desarrollo de interfaces\UD 2 Introduccion a C#\2DAM_Ejemplos\bin\Debug\2DAM_Ejemplos.exe
-C:\Users\usuario\Desktop\Desarrollo de interfaces\UD 2 Introduccion a C#\2DAM_Ejemplos\bin\Debug\2DAM_Ejemplos.pdb
-C:\Users\usuario\Desktop\Desarrollo de interfaces\UD 2 Introduccion a C#\2DAM_Ejemplos\obj\Debug\2DAM_Ejemplos.csproj.AssemblyReference.cache
-C:\Users\usuario\Desktop\Desarrollo de interfaces\UD 2 Introduccion a C#\2DAM_Ejemplos\obj\Debug\2DAM_Ejemplos.csproj.CoreCompileInputs.cache
-C:\Users\usuario\Desktop\Desarrollo de interfaces\UD 2 Introduccion a C#\2DAM_Ejemplos\obj\Debug\2DAM_Ejemplos.exe
-C:\Users\usuario\Desktop\Desarrollo de interfaces\UD 2 Introduccion a C#\2DAM_Ejemplos\obj\Debug\2DAM_Ejemplos.pdb
